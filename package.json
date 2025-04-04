@@ -1,7 +1,8 @@
 {
-  "name": "sdk",
+  "name": "frame-sdk",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "dist/index.ts",
+  "types": "dist/types.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc"
@@ -9,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A TypeScript-based client for interacting with the Frame API",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "dotenv": "^16.4.7",
@@ -20,5 +21,9 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7"
-  }
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ]
 }

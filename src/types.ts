@@ -82,12 +82,15 @@ export interface DeleteDocumentByIdResponse {
   document: Document;
 }
 
-export interface CreateDocumentsResponse {
+interface DocumentResponse {
   success: boolean;
   url?: string | null;
   description?: string | null;
   metadata?: Record<string, any> | null;
 }
+[];
+
+export type CreateDocumentsResponse = DocumentResponse[];
 
 export interface GetRecommendationsResponse {
   hits: {
@@ -97,7 +100,7 @@ export interface GetRecommendationsResponse {
     metadata: Record<string, any> | null;
     timestamp: string;
     score: number;
-  };
+  }[];
   count: number;
 }
 
