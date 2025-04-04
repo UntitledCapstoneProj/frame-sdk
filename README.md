@@ -15,7 +15,7 @@ The Frame SDK is a TypeScript-based client for interacting with the Frame API, e
 npm install frame-sdk
 ```
 
-Usage
+## Usage
 
 ```typescript
 import { Client } from 'frame-sdk';
@@ -31,7 +31,7 @@ client.getDocuments().then(response => {
 });
 ```
 
-API Methods
+## API Methods
 
 getDocuments(params?) – Retrieve a list of documents
 
