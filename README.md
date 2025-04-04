@@ -1,4 +1,4 @@
-# Frame SDK
+# Overview
 
 The Frame SDK is a TypeScript-based client for interacting with the Frame API, enabling seamless image ingestion, embedding, and multimodal search by text or image. It provides an intuitive interface for managing documents, retrieving vector-based recommendations, and performing similarity searches.
 
