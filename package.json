@@ -1,5 +1,5 @@
 {
-  "name": "frame-sdk",
+  "name": "frame-v1",
   "version": "1.0.0",
   "main": "dist/index.ts",
   "types": "dist/types.d.ts",
@@ -13,14 +13,10 @@
   "description": "A TypeScript-based client for interacting with the Frame API",
   "devDependencies": {
     "@types/jest": "^29.5.14",
-    "dotenv": "^16.4.7",
     "jest": "^29.7.0",
     "ts-jest": "^29.3.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "dotenv": "^16.4.7"
   },
   "files": [
     "dist",

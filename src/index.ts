@@ -1,7 +1,4 @@
 import * as SDK from "./types";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 export class Client {
   private apiKey: string;
